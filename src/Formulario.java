@@ -53,12 +53,12 @@ public class Formulario extends JFrame {
                 String anioNacim = anioNacimText.getText();
                 String estatura = estaturaText.getText();
 
-                String informacion = "<html>Nombre: " + nombre +
-                        "<br>Apellido: " + apellido +
-                        "<br>Dirección: " + direccion +
-                        "<br>Teléfono: " + telefono +
-                        "<br>Año de Nacimiento: " + anioNacim +
-                        "<br>Estatura: " + estatura + "</html>";
+                String informacion = "Nombre: " + nombre +
+                        "\nApellido: " + apellido +
+                        "\nDirección: " + direccion +
+                        "\nTeléfono: " + telefono +
+                        "\nAño de Nacimiento: " + anioNacim +
+                        "\nEstatura: " + estatura;
 
                 datosLabel.setText(informacion);
             }
